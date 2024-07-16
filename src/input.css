@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .nav-link{
+        @apply text-opacity-80 text-gray-300 cursor-pointer transition-all duration-300 ease-in-out;
+    }
+    .nav-link:hover{
+        @apply text-opacity-100;
+    }
+    .hero-button
+    {
+        @apply rounded-full px-5 py-2 font-semibold transition-all duration-300 ease-in-out ring-1 ring-white/30;
+    }
+    .hero-button:hover{
+        @apply scale-110;
+    }
+    .microsoft,.google,.gcloud,.ge,.netflix,.airbnb{
+        @apply w-32 h-32 flex items-center justify-center grayscale transition-all duration-300 ease-in-out;
+    }
+    .microsoft:hover,.google:hover,.gcloud:hover,.ge:hover,.netflix:hover,.airbnb:hover{
+        @apply grayscale-0;
+    }
+}
