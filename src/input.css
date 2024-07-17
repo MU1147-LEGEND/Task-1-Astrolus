@@ -22,4 +22,13 @@
     .microsoft:hover,.google:hover,.gcloud:hover,.ge:hover,.netflix:hover,.airbnb:hover{
         @apply grayscale-0;
     }
+    .hover-effect-on-3-items{
+        @apply group-hover:text-yellow-500 group-hover:cursor-pointer transition-all duration-300 ease-in-out;
+    }
+    .feature{
+        @apply  p-14 bg-[#293041] border border-white/30 shadow-sm border-r-0 relative;
+    }
+    .feature img{
+        @apply w-16 h-16;
+    }
 }
