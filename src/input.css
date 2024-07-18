@@ -26,9 +26,21 @@
         @apply group-hover:text-yellow-500 group-hover:cursor-pointer transition-all duration-300 ease-in-out;
     }
     .feature{
-        @apply  p-14 bg-[#293041] border border-white/30 shadow-sm border-r-0 relative;
+        @apply  p-14 bg-[#293041] border border-white/30 shadow-sm border-r-0 relative hover:hover:bg-white/5;
     }
     .feature img{
         @apply w-16 h-16;
+    }
+    .feature-h1{
+        @apply py-5 text-xl font-semibold group-hover:text-[#ff7e33] transition-all duration-300;
+    }
+    .feature-read-more{
+        @apply group-hover:text-[#ff7e33] transition-all duration-300;
+    }
+    .feature-read-arrow{
+        @apply right-0 absolute opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:right-5 group-hover:text-[#ff7e33];
+    }
+    .fan{
+        @apply aspect-auto p-8 border rounded-3xl bg-gray-800 border-gray-700 shadow-none;
     }
 }
